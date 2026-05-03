@@ -1,20 +1,23 @@
 # Caesar Cipher Python Project 🛡️
-My first encryption project on Python.
+My first advanced encryption project on Python.
 
 Hello! I am **op1lix**, and I am 12 years old. This is my first project in cybersecurity and Python programming.
 
-## 📝 Project Description
-This is a simple implementation of the **Caesar Cipher**. It can:
-* **Encrypt** text by shifting characters forward.
-* **Decrypt** text by shifting characters backward.
-
-I created this project to understand how data encoding, ASCII table, and loops work in Python.
+## 📝 Project Description (Update V2.0)
+This is an improved implementation of the **Caesar Cipher**. Now it is more than just a basic script!
+* **Multi-language UI:** Support for English, Russian, and German.
+* **Smart Alphabet Support:** Works with Latin, Cyrillic, and German umlauts (`ä, ö, ü, ß`).
+* **Bidirectional:** Can both **Encrypt** and **Decrypt** text.
+* **Hidden Logic:** Features a secret +10 shift layer for added security.
 
 ## 🚀 How it works
-The program uses `ord()` and `chr()` functions to convert letters into numbers and back, applying a mathematical shift.
+The program uses a custom mapping of alphabets and the **Modulo Operator (%)** to ensure the shift stays within the correct range.
+1. It identifies the language of each character.
+2. It calculates the new position using: `(index + shift) % alphabet_length`.
+3. It handles non-alphabetic characters (like spaces and dots) by leaving them unchanged.
 
 ## 🎯 My Goals
 I am learning Python to become a cybersecurity expert. My dream is to get a scholarship for a top university in the USA or Europe. This repository is the start of my professional portfolio.
 
 ---
-*Created in May 2026*
+*Latest Update: May 2026 (Version 2.0)*
